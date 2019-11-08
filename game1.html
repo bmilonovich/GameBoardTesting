@@ -5,6 +5,10 @@ body {
 background-image: url('https://docs.google.com/drawings/d/e/2PACX-1vQY6Ly2dE-oRswFVOVmC-SVvv0PdfW2PFLJI-Tz-sZUFRtRIgm3x62VXnhQooV5zJnoZOXW3FbsLEPz/pub?w=1440&amp;h=1080');
 background-repeat: no-repeat;
   }
+  body, html {
+  height: 100%;
+  margin: 0;
+}
 
 #mydiv {
   position: absolute;
@@ -21,9 +25,20 @@ background-repeat: no-repeat;
   <!-- background-color: #2196F3; -->
   color: #fff;
 }
+  .bg {
+  /* The image used */
+  background-image: url("img_girl.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 </style>
 <body>
-
+<div class="bg"></div>
 <div id="mydiv">
   <div id="mydivheader"><img src="https://theme.zdassets.com/theme_assets/594892/1f4d1f5e6e27598377c8a014b951b8e9e6271e70.png"></div>
   
