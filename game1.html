@@ -10,7 +10,15 @@ background-repeat: no-repeat;
   margin: 0;
 }
 
-#mydiv {
+#avatar1 {
+  position: absolute;
+  z-index: 9;
+  <!-- background-color: #f1f1f1; -->
+  text-align: center;
+  <!-- border: 1px solid #d3d3d3; -->
+}
+  
+  #blank {
   position: absolute;
   z-index: 9;
   <!-- background-color: #f1f1f1; -->
@@ -39,14 +47,18 @@ background-repeat: no-repeat;
 </style>
 <body>
 <div class="bg"></div>
-<div id="mydiv">
-  <div id="mydivheader"><img src="https://theme.zdassets.com/theme_assets/594892/1f4d1f5e6e27598377c8a014b951b8e9e6271e70.png" height="20px" width="20px"></div>
-  <div id="mydivheader"><p>Test</p></div>
+<div id="avatar1">
+  <div id="mydivheader"><img src="https://theme.zdassets.com/theme_assets/594892/1f4d1f5e6e27598377c8a014b951b8e9e6271e70.png" height="20px" width="20px">
+  </div>
 </div>
+  <div id="blank">
+    <div id="mydivheader"><p>test</p></div>
+  </div>
 
 <script>
 //Make the DIV element draggagle:
-dragElement(document.getElementById("mydiv"));
+dragElement(document.getElementById("avatar1"));
+dragElement(document.getElementById("blank"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
