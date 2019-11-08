@@ -1,63 +1,69 @@
 <!DOCTYPE html>
 <html>
-<style>
-body {
-background-image: url('https://docs.google.com/drawings/d/e/2PACX-1vQY6Ly2dE-oRswFVOVmC-SVvv0PdfW2PFLJI-Tz-sZUFRtRIgm3x62VXnhQooV5zJnoZOXW3FbsLEPz/pub?w=1440&amp;h=1080');
-background-repeat: no-repeat;
-  }
-  body, html {
-  height: 100%;
-  margin: 0;
-}
-
-#avatar1 {
-  position: absolute;
-  z-index: 9;
-  <!-- background-color: #f1f1f1; -->
-  text-align: center;
-  <!-- border: 1px solid #d3d3d3; -->
-}
-  
-  #blank {
-  position: absolute;
-  z-index: 9;
-  <!-- background-color: #f1f1f1; -->
-  text-align: center;
-  <!-- border: 1px solid #d3d3d3; -->
-}
-
-#mydivheader {
-  padding: 10px;
-  cursor: move;
-  z-index: 10;
-  <!-- background-color: #2196F3; -->
-  color: #fff;
-}
-  .bg {
-  /* The image used */
-  background-image: url("https://docs.google.com/drawings/d/e/2PACX-1vQY6Ly2dE-oRswFVOVmC-SVvv0PdfW2PFLJI-Tz-sZUFRtRIgm3x62VXnhQooV5zJnoZOXW3FbsLEPz/pub?w=1440&amp;h=1080");
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-</style>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 <body>
-<div class="bg"></div>
+
 <div id="avatar1">
-  <div id="mydivheader"><img src="https://theme.zdassets.com/theme_assets/594892/1f4d1f5e6e27598377c8a014b951b8e9e6271e70.png" height="200px" width="200px">
+  <div id="mydivheader"><img src="csa_avatars\gillian.png">
   </div>
 </div>
-  <div id="blank">
-    <div id="mydivheader"><p>test</p></div>
-  </div>
 
+<div id="avatar2">
+  <div id="mydivheader"><img src="csa_avatars\julia.png">
+  </div>
+</div>
+
+<div id="avatar3">
+  <div id="mydivheader"><img src="csa_avatars\kyle.png">
+  </div>
+</div>
+
+<div id="avatar4">
+  <div id="mydivheader"><img src="csa_avatars\max.png">
+  </div>
+</div>
+
+<div id="avatar5">
+  <div id="mydivheader"><img src="csa_avatars\neha.png">
+  </div>
+</div>
+
+<div id="avatar6">
+  <div id="mydivheader"><img src="csa_avatars\nico.png">
+  </div>
+</div>
+
+<div id="avatar7">
+  <div id="mydivheader"><img src="csa_avatars\olympia.png">
+  </div>
+</div>
+
+<div id="avatar8">
+  <div id="mydivheader"><img src="csa_avatars\rory.png">
+  </div>
+</div>
+
+<div id="avatar9">
+  <div id="mydivheader"><img src="csa_avatars\ruthie.png">
+  </div>
+</div>
+
+
+  <div id="blank">
+    <div id="mydivheader"><p>.</p></div>
+  </div>
+<div class="bg"></div>
+<p>.</p>
 <script>
 //Make the DIV element draggagle:
-dragElement(document.getElementById("avatar1"));
+var i;
+for (i = 1; i <= 9; i++)
+{
+var current = "avatar" + i;
+dragElement(document.getElementById(current));
+}
 dragElement(document.getElementById("blank"));
 
 function dragElement(elmnt) {

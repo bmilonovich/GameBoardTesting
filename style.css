@@ -1,0 +1,90 @@
+
+  body, html {
+  height: 100%;
+  margin: 0;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  max-height: 100px;
+  width: auto;
+}
+
+#avatar1 {
+  position: absolute;
+  z-index: 9;
+  <!-- background-color: #f1f1f1; -->
+  text-align: center;
+  <!-- border: 1px solid #d3d3d3; -->
+}
+#avatar2 {
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+}
+#avatar3 {
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+}
+#avatar4 {
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+}
+#avatar5 {
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+}
+#avatar6 {
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+}
+#avatar7 {
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+}
+#avatar8 {
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+}
+#avatar9 {
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+}
+
+  #blank {
+  position: absolute;
+  z-index: 9;
+  <!-- background-color: #f1f1f1; -->
+  text-align: center;
+  <!-- border: 1px solid #d3d3d3; -->
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  <!-- background-color: #2196F3; -->
+  color: #fff;
+}
+  .bg {
+  /* The image used */
+  background-image: url("CSA_sprint4.png");
+
+  /* Full height */
+  height: 140%;
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
