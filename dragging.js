@@ -1,64 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-
-
-
-<div id="avatar1">
-  <div id="mydivheader"><img src="csa_avatars\gillian.png">
-  </div>
-</div>
-
-<div id="avatar2">
-  <div id="mydivheader"><img src="csa_avatars\julia.png">
-  </div>
-</div>
-
-<div id="avatar3">
-  <div id="mydivheader"><img src="csa_avatars\kyle.png">
-  </div>
-</div>
-
-<div id="avatar4">
-  <div id="mydivheader"><img src="csa_avatars\max.png">
-  </div>
-</div>
-
-<div id="avatar5">
-  <div id="mydivheader"><img src="csa_avatars\neha.png">
-  </div>
-</div>
-
-<div id="avatar6">
-  <div id="mydivheader"><img src="csa_avatars\nico.png">
-  </div>
-</div>
-
-<div id="avatar7">
-  <div id="mydivheader"><img src="csa_avatars\olympia.png">
-  </div>
-</div>
-
-<div id="avatar8">
-  <div id="mydivheader"><img src="csa_avatars\rory.png">
-  </div>
-</div>
-
-<div id="avatar9">
-  <div id="mydivheader"><img src="csa_avatars\ruthie.png">
-  </div>
-</div>
-
-
-  <div id="blank">
-    <div id="mydivheader"><p>.</p></div>
-  </div>
-<div class="bg"></div>
-<p>.</p>
-<script>
 //Make the DIV element draggagle:
 var i;
 for (i = 1; i <= 9; i++)
@@ -108,7 +47,3 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
-</script>
-
-</body>
-</html>
