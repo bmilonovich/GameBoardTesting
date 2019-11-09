@@ -6,59 +6,57 @@ body, html {
   background-image: url("backgrounds/gb1.png");
   background-size: 1400px 1200px;
   background-repeat: no-repeat;
-  background-color: black;
-}
-
-.containter {
-  position: absolute;
-  margin-top: 100px;
-  width: 100%;
-  height: 1500px;
-}
-
-#row1 {
-  margin-top: 100px;
 }
 
 .row {
   height: 90px;
   width: 1200px;
-  position: relative;
+  position: absolute;
   margin-left: 92px;
 }
 
-#row2 {
-  margin-top: 10px;
+#r1 {
+  margin-top: 90px;
 }
 
-#row3 {
-  margin-top: 10px;
-}
-#row4 {
-  margin-top: 10px;
+#r2 {
+  margin-top: 190px;
 }
 
-
-#row5 {
-  margin-top: 10px;
+#r3 {
+  margin-top: 290px;
 }
 
-#row6 {
-  margin-top: 10px;
+#r4 {
+  margin-top: 390px;
 }
 
-#row7 {
-  margin-top: 10px;
+#r5 {
+  margin-top: 490px;
 }
 
-#row8 {
-  margin-top: 10px;
+#r6 {
+  margin-top: 585px;
 }
-#row9 {
-  margin-top: 10px;
+
+#r7 {
+  margin-top: 690px;
 }
-#row10 {
-  margin-top: 10px;
+
+#r8 {
+  margin-top: 790px;
+}
+
+#r9 {
+  margin-top: 890px;
+}
+
+#r10 {
+  margin-top: 990px;
+}
+
+#r11 {
+  margin-top: 1090px;
 }
 
 .box {
@@ -71,47 +69,36 @@ body, html {
   width: 90px;
   height: inherit;
   float: left;
-  vertical-align: initial;
 }
 .start {
   background-color: yellow;
   width: 190px;
-
 }
 .spacer {
   height: inherit;
   width: 100px;
   float: left;
-
 }
 
 .lesson {
   background-color: white;
-  width: 190px;
 }
 
-.coding1 {
-  background-color: orange;
-  width: 190px;
+.lesson {
+  background-color: white;
+  width: 180px;
 }
 
 .regular {
-  background-color: limeGreen;
+  background-color: lightGreen;
 }
 
 .quiz {
   background-color: red;
-  width: 190px;
 }
 
 .group {
   background-color: pink;
-}
-
-.github {
-  background-color: blue;
-  color: white;
-  width: 190px;
 }
 
 img {
