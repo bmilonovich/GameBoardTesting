@@ -96,7 +96,7 @@ body, html {
 }
 
 .regular {
-  background-color: limeGreen;
+  background-color: lime;
 }
 
 .quiz {
@@ -112,6 +112,40 @@ body, html {
   background-color: blue;
   color: white;
   width: 190px;
+}
+
+.lab {
+  background-color: purple;
+  color: white;
+  width: 190px;
+}
+
+.ap {
+  background-color: #1F618D;
+  color: white;
+  width: 190px;
+}
+
+.group {
+  background-color: #48C9B0;
+  color: black;
+  width: 190px;
+}
+
+.titleTop {
+  background-color: black;
+  color: yellow;
+  border-color: yellow;
+  border-bottom: thick solid black;
+  width: 490px;
+}
+
+.titleBottom {
+  background-color: black;
+  color: yellow;
+  border-color: yellow;
+  border-top: thick solid black;
+  width: 490px;
 }
 
 img {
