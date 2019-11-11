@@ -9,11 +9,25 @@ body, html {
   background-color: black;
 }
 
+.key {
+  background-color: gray;
+  border: 5px solid yellow;
+  position: fixed;
+  width: auto;
+  height: auto;
+  top: 50;
+  right: 50;
+  left: 1450px;
+  z-index: 10;
+  padding: 10px;
+}
+
 .containter {
   position: absolute;
   margin-top: 100px;
-  width: 100%;
+  width: 2500px;
   height: 1500px;
+  z-index: 9;
 }
 
 #row1 {
@@ -34,10 +48,10 @@ body, html {
 #row3 {
   margin-top: 10px;
 }
+
 #row4 {
   margin-top: 10px;
 }
-
 
 #row5 {
   margin-top: 10px;
@@ -54,9 +68,11 @@ body, html {
 #row8 {
   margin-top: 10px;
 }
+
 #row9 {
   margin-top: 10px;
 }
+
 #row10 {
   margin-top: 10px;
 }
@@ -73,16 +89,16 @@ body, html {
   float: left;
   vertical-align: initial;
 }
+
 .start {
   background-color: yellow;
   width: 190px;
-
 }
+
 .spacer {
   height: inherit;
   width: 100px;
   float: left;
-
 }
 
 .lesson {
